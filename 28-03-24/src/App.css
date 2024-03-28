@@ -1,0 +1,37 @@
+.bg-design{
+    background: url("./assets/Left_WhiteDesignBG.png");
+    background-position: right;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.footer-ul li{
+   color: #3B4649 !important;
+   font-size: 13px;
+   line-height: 20px;
+   margin-top: 5px;
+   cursor: pointer;
+}
+.footer-ul li:hover{
+    color: black !important;
+}
+.footer-h6{
+    color: #3B4649 !important;
+    font-weight:600;
+}
+@media  (min-width: 1024px) {
+    .enterpriseImg{
+        max-width: 900px !important;
+    }
+}
+@media  (min-width: 427px) and (max-width: 800px) {
+    .enterpriseImg{
+        max-width:1100px !important;
+    }
+}
+@media  (max-width: 321px) {
+    .enterpriseImg{
+        max-width: 600px !important;
+    }
+}
